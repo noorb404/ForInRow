@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Four_In_Row_DBModelStoreContainer" CdmEntityContainer="Four_In_Row_DBEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="Four_In_Row_DBModel.Customer">
+        <MappingFragment StoreEntitySet="Customers">
+          <ScalarProperty Name="NumOfLose" ColumnName="NumOfLose" />
+          <ScalarProperty Name="NumOfWinning" ColumnName="NumOfWinning" />
+          <ScalarProperty Name="NumOfgames" ColumnName="NumOfgames" />
+          <ScalarProperty Name="IsPlaying" ColumnName="IsPlaying" />
+          <ScalarProperty Name="IsOnline" ColumnName="IsOnline" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
